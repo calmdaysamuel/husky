@@ -20,15 +20,18 @@
 
     <ImageView
         android:id="@+id/bm_image"
-        android:layout_width="321dp"
-        android:layout_height="293dp"
+        android:layout_width="266dp"
+        android:layout_height="258dp"
         android:contentDescription="@string/mountain_dog"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/gr_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.465"
-        tools:srcCompat="@drawable/bm_dog" />
+        android:src="@drawable/husky"
+        />
+
 
     <Button
         android:id="@+id/toast_btn"
